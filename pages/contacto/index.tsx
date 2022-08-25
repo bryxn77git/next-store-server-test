@@ -22,6 +22,7 @@ const Contacto = () => {
                 display='flex' 
                 justifyContent='center'
                 className="home-grid"
+                minHeight='calc(100vh - 200px)'
             >
 
                 <Grid item xs={12} sx={{ mt: { xs: 3, md: 5} }}>

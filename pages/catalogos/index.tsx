@@ -25,7 +25,7 @@ const Catalogos: FC<Props> = ({ catalogos }) => {
                 minHeight='calc(100vh - 200px)'
             >
 
-                <Grid container sx={{ mt: 3 }}>
+                <Grid sx={{ mt: 3 }}>
                     <Grid item xs={12}>
                         <Box display='flex' justifyContent='center'> 
                             <TitleUi title='CATALOGOS'/>
