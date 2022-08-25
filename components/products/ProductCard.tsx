@@ -41,7 +41,7 @@ export const ProductCard: FC<PropsWithChildren<Props>> = ({ product }) => {
                     }
                 </Typography>
             </Tooltip>
-            <LinkButton href='/' title={ product.marca.charAt(0).toLocaleUpperCase() + product.marca.slice(1) } />
+            <LinkButton href={`/marca/${product.marca.toLowerCase}`} title={ product.marca.charAt(0).toLocaleUpperCase() + product.marca.slice(1) } />
         </CardContent>
         </Card>
     // </Grid>
