@@ -57,7 +57,7 @@ export const Navbar = () => {
     <>
     
     <AppBar position="fixed" >
-        <Toolbar sx={{ minHeight: 100}}>
+        <Toolbar sx={{ height: 100 }}>
 
             <a href='https://wa.me/5216142161458' target='_blank' rel="noreferrer">
                 <Tooltip title="Whatsapp" arrow>
